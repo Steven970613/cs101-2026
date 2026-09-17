@@ -1,1 +1,16 @@
+# 忽略特定的檔案
+.env
+config.secrets.json
 
+# 忽略特定副檔名
+*.log
+*.tmp
+
+# 忽略整個資料夾
+node_modules/
+dist/
+build/
+.vscode/
+
+# 例外規則：不忽略某個特定檔案（即便前面已寫規則）
+!config.secrets.example.json
